@@ -15,6 +15,7 @@ header {
   height: 80px;
   border-bottom: 1px solid black;
   align-items: center;
+  z-index: 5;
 }
 
 nav span {
@@ -32,4 +33,26 @@ nav span {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+}
+
+.column {
+  display: flex;
+}
+
+.column .large {
+  width: 630px;
+  margin-top: 120px;
+  }
+
+.story  {
+  border: 1px solid black;
+}
+
+.image {
+  border: 3px solid black;
+}
+
+.image span {
+  font-weight: bold;
+  font-size: 20px
 }
