@@ -16,6 +16,7 @@ header {
   border-bottom: 1px solid black;
   align-items: center;
   z-index: 5;
+  background-color: white;
 }
 
 nav span {
@@ -103,9 +104,10 @@ h2 {
 .camera.image {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-  margin-top: 0;
+  margin-top: 40px;
   text-align: center;
   flex-direction: column;
+
 }
 
 .cat.image {
